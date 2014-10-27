@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/space1"
+        android:layout_width="wrap_content"
+        android:layout_height="5px"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/phoneinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addresslayout"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="Phone: "
+        android:textSize="23dip" />
+.
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addresslayout"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/phoneinfo"
+        android:gravity="center_vertical"
+        android:text="816-235-5555"
+        android:textSize="23dip"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/emailinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneinfo"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="Email: "
+        android:textSize="23dip" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_toRightOf="@+id/emailinfo"
+        android:gravity="center_vertical"
+        android:text="aaabb@umkc.edu"
+        android:textSize="23dip"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/space2"
+        android:layout_width="wrap_content"
+        android:layout_height="18px"
+        android:layout_below="@+id/email"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/space2"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/callbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Call" />
+
+        <Button
+            android:id="@+id/addbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/callbutton"
+            android:layout_toRightOf="@+id/callbutton"
+            android:layout_weight="1.0"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/emailbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/callbuttons"
+            android:layout_toRightOf="@+id/addbutton"
+            android:layout_weight="1.0"
+            android:text="Email" />
+    </LinearLayout>
+
+</RelativeLayout>

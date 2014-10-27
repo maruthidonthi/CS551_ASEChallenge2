@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Food Survielence</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Links">Useful Links</string>
+    <string name="Hours">Hours</string>
+    <string name="Contact">Contact Info</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Directions">Directions</string>
+    <string name="Radio">K-Roo Radio</string>
+
+    <color name="slider_divider">#666666</color>
+    <color name="slider">#212021</color>
+    <color name="newColor">#041221</color>
+    <color name="focus">#0E3E6E</color>
+    <color name="transparent">#80000000</color>
+    <color name="light_gray">#B6B6B4</color>
+    <color name="title_bar_blue">#0E3E6E</color>
+
+    <string-array name="Contact_Office">
+        <item>Jeevana/supervisor of Food Surveillance</item>
+       
+    </string-array>
+    <string-array name="Phones">
+        <item>5732891751</item>
+       </string-array>
+    <string-array name="Email">
+        <item>jthd3@mail.umkc.edu</item>
+        
+        
+    </string-array>
+    <string-array name="BuildingHours">
+        <item> Coming Soon</item>
+        <item>New</item>
+        <item>Clearance</item>
+        <item>Reduced Price</item>
+        
+    </string-array>
+    <string-array name="ParentGroup">
+        <item>Desserts</item>
+        <item>Vegetarian meal</item>
+        <item>Non-vegetarian meal </item>
+        <item>Baking</item>
+                  <item>BreakFast &amp; cereal</item>
+           <item>Sweet dishes</item>
+           
+        
+    </string-array>
+    <string-array name="bookstore">
+        <item>Hot items</item>
+        <item>Sweet</item>
+       
+          
+                    
+            
+        
+    </string-array>
+    <string-array name="Events">
+       <!-- <item>Candy </item>  -->
+         <item>Full meal</item>
+          
+    </string-array>
+    <string-array name="Reserve">
+        <item>Full meal &amp; dessert</item>
+       <!--  <item>Coffee</item>
+               <item>Tea</item> -->
+       <!--   <item>Water</item>
+        <item>Soft Drinks</item>
+       -->
+    </string-array>
+    <string-array name="Dining">
+        <item>biscuits</item>
+        <item>Cakes</item>
+        
+        <!--   <item>Salt</item>
+          <item>Yeast</item>
+           <item>Powder &amp; Soda</item>-->
+           
+    </string-array>
+ <!--      <string-array name="Breakfast">
+        <item>Toaster Pasteries</item>
+        <item>Bars</item>
+        
+           </string-array>
+     <string-array name="frozen">
+        <item>Pizza</item>
+         <item>Fruit</item>
+         <item>Juice</item>
+         <item>Appetizer</item>
+        
+    </string-array>-->
+    
+
+    <string name="mail_not_available">Not Available</string>
+    <string name="mail_student_employment">jthd3@mail.umkc.edu</string>
+    <string name="title_mail_employment_oppurtunites">Mail Student Employment Oppurtunites</string>
+    <string name="button_feedback">Send feedback</string>
+    <string name="title_send_feedback">Send feedback</string>
+    <string name="mail_feedback_email">jthd3@mail.umkc.edu</string>
+    <string name="mail_feedback_subject">Feedback regarding issues on events, food or any relevant issues</string>
+
+</resources>
